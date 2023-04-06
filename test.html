@@ -31,15 +31,15 @@
 
   <!-- Instantiate the cybrid-app web-component via code -->
   <script>
-      const auth = '';
+      const auth = 'eyJ...';
       const config = {
         refreshInterval: 5000,
         routing: false,
         locale: 'en-US',
         theme: 'LIGHT',
-        customer: '',
+        customer: 'your-customer-guid',
         fiat: 'USD',
-        environment: 'sandbox'
+        environment: 'sandbox' // make sure your bearer token is for the correct environment
       };
       const component = 'price-list';
 
